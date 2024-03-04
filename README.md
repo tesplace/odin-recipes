@@ -10,6 +10,6 @@
 
 Today is the 3th of March. 10th day of my Full Stack Web Developer journey.
 
-I'm about the create a Web-Site which will be presenting a *namehere* recipe.
+I'm about the create a Web-Site which will be presenting some recipes.
 I've started with creating this file. 
 Let's see how it goes.
