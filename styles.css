@@ -1,59 +1,76 @@
-* {
-    font-family: 'Courier New', "Times New Roman", monospace;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0px; 
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
-#title  {
-    background-color: #ffe4ee;
-    color: #ee7676;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    background-size: auto;
-    border-radius: 25px;
-}
-
-.recipes {
-    color: #ffe4ee;
-    background-color: #ee7676;
-    border-radius: 25px;
-    padding: 10px;
-    text-align: center;
-    width: auto;
-    margin: auto;
-}
-.recipe-button {
-    text-decoration: none;
-    color: #ffe4ee;
-}
-
-.intro {
-    width: auto;
-    background-color: #ee7676;
-    color: #ffe4ee;    
-    margin: auto;
-    padding: 10px;
-    border-radius: 25px;
+body {
     display: grid;
-    grid-template-rows: auto;
+    place-items: center;
+}
+
+.area {
+    display: grid;
+    gap: 3em;
+   
+}
+
+#title {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px #E2784E;    
+    padding: 20px;
     text-align: center;
+    margin: 20px;
+    margin-bottom: 75px;
+    font-size: 50px;
+    color: #852B2A;
+    border-radius: 40px;
+    display: block;
+    width: 85%;
+}
+
+div {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(211, 84, 84);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #852B2A;
+    text-align: center;
+}
+
+div.intro {
+    margin: 20px;
 }
 
 .img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    width: auto\9;
     border-radius: 25px;
+    box-shadow: 0 0 10px gray;
+    margin: auto;
 }
 
-.ing-steps {
-    width: fit-content;
-    background-color: #ffe4ee;
-    color: #ee7676;
-    border-radius: 25px;
-    padding: 20px;
+
+h1, .intro
+h2, .intro {
+    margin-bottom: 20px;
+}
+
+h2, .intro {
     margin-top: 20px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    font-size: 25px;
+}
+
+.button {
+    text-decoration: none;
+    color: #E2784E;
+}
+
+div.ing-steps {
+    margin: 25px;
 }
